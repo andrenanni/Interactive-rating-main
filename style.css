@@ -98,9 +98,36 @@ main{
 
 .thanks-box{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
     width: 370px;
-    height: auto;
+    min-height: 381px;
     border-radius: 25px;
-    padding: 30px;
+    padding: 35px;
     background-color: crimson;
+}
+
+.img-thanks{
+    width: 160px;
+}
+
+.select-txt{
+    background-color: aqua;
+    width: 185px;
+    padding: 8px;
+    border-radius: 50px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.text-02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
