@@ -61,6 +61,7 @@ main{
     font-weight: 400;
     font-size: 10pt;
     line-height: 22px;
+    text-align: center;
 }
 
 .number{
@@ -81,10 +82,22 @@ main{
     font-weight: 400;
     font-size: 11pt;
     color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.circle:hover{
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+}
+
+.circle:focus{
+    background-color:hsl(25, 97%, 53%);
+    color:white;
 }
 
 .btn{
-    background-color: crimson;
+    background-color: hsl(25, 97%, 53%);
     width: 100%;
     height: 40px;
     border-radius: 30px;
@@ -94,10 +107,16 @@ main{
     font-size: 10pt;
     letter-spacing: 2px;
     color: white;
+    cursor: pointer;
 }   
 
+.btn:focus{
+    background-color:white;
+    color: hsl(25, 97%, 53%);
+}
+
 .thanks-box{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -106,7 +125,7 @@ main{
     min-height: 381px;
     border-radius: 25px;
     padding: 35px;
-    background-color: crimson;
+    background-color: hsl(213, 19%, 18%);
 }
 
 .img-thanks{
