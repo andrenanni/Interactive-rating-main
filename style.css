@@ -141,7 +141,6 @@ main{
     gap: 25px;
     align-items: center;
     width: 370px;
-    min-height: 381px;
     border-radius: 25px;
     padding: 35px;
     background: rgb(25,30,39) linear-gradient(0deg, rgba(25,30,39,1) 0%, rgba(35,41,48,1) 100%);
@@ -158,7 +157,7 @@ main{
     border-radius: 50px;
 }
 
-.select-txt{
+#select-txt{
     font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
